@@ -3,10 +3,6 @@
   padding-bottom: 64px;
 }
 
-.maxWidthWrapper {
-  position: relative;
-}
-
 .header {
   padding-bottom: 64px;
   width: 65%;
@@ -28,11 +24,21 @@
 .characterWrapper {
   min-height: 500px;
   width: 500px;
-  position: absolute;
-  top: -32px;
-  right: -64px;
+  position: fixed;
+  top: 128px;
+  right: 16px;
 }
 
 .controlColumn {
   width: 50%;
+  position: relative;
+}
+
+.perspective {
+  background-color: hsl(195deg, 20%, 86%);
+  height: 40%;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
